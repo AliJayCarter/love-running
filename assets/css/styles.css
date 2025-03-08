@@ -109,7 +109,7 @@ nav {
     }
 
 /*Media queries for responsive design, ipads and larger (768px and up)*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     /*Header shown*/
     nav {
         display: block;
@@ -130,4 +130,23 @@ nav {
     .nav-toggle-label {
         display: none;
     }
+
+    #logo{
+        font-size:200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main{
+        margin-top: 75px;
+    }
+}
+
+/*Media queries for responsive design, laptops (992px and above)*/
+@media screen and (min-width: 992px) {
+
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
 }
