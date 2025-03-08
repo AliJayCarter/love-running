@@ -1,10 +1,17 @@
+/*Asterix (*) is used to select all elements on the page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
-    background-color:rgb(131, 167, 219);
+    background-color: lightcoral;);
 }
 
 body{
-    background-color: orange;
+    background-color: lightblue;
 }
 footer{
-    background-color: lightcoral;
+    background-color: orange;
 }
