@@ -36,6 +36,7 @@ main {
     background-color: lightblue;
     /*make the main element take up the remaining space*/
     flex: 1 0 auto;
+    margin-top: 48px;
 }
 footer {
     background-color: orange;
@@ -106,3 +107,27 @@ nav {
         font-weight: 300;
         font-style: normal;
     }
+
+/*Media queries for responsive design, ipads and larger (768px and up)*/
+@media (min-width: 768px) {
+    /*Header shown*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right:1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        margin-left: 1em;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
