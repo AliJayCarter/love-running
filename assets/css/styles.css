@@ -33,10 +33,16 @@ header {
 }
 
 main {
-    background-color: lightblue;
     /*make the main element take up the remaining space*/
     flex: 1 0 auto;
     margin-top: 48px;
+}
+
+/*Hero image styles*/
+#hero-image {
+   height: 600px;
+   width: 100%;
+   background: url('../images/hero-image.webp') no-repeat center center/cover; 
 }
 
 /*Footer styles*/
