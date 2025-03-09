@@ -182,6 +182,37 @@ nav {
         font-style: normal;
     }
 
+/*Meetup section*/
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+#times div{
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 15px;
+    text-align: center;
+     /*This will not wrap on screens less than 400px
+    each div will expand to fill the space*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*Border on grids*/
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+#times h3 {
+    color:#fafafa;
+    padding-bottom: 10px;
+
+}
+
 /*Media queries for responsive design, ipads and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /*Header shown*/
